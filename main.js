@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como faço para conseguir medicamentos não padronizados do sus?",
+        enunciado: "Você acha que a poluição do rio é mais preocupante devido ao lixo sólido ou ao esgoto doméstico?",
         alternativas: [
             {
-                texto: "encaminhar-se a regional de saude do seu município, munido dos seguintes documentos: cpf ou rg, comprovante de residencia, prescriçao atualizada, receituario medico.",
-                afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
+                texto: "Lixo sólido",
+                afirmacao: " A pessoa é ambientalista, preocupada com o impacto dos plásticos e resíduos na fauna e qualidade da água, buscando soluções sustentáveis."
             },
             {
-                texto: "Exigências quanto ao  relatório médico. Os documentos preenchidos pelo médico deverão conter carimbo legível, com nome e CRM do médico, data e assinatura.",
-                afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
+                texto: "Mudança de comportamento humano",
+                afirmacao: "A pessoa acredita que a mudança de comportamento humana, com ações conscientes como o descarte adequado de lixo e o uso responsável de produtos químicos, é essencial para combater a poluição hídrica."
             }
         ]
     },
@@ -32,41 +32,41 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Por que há tanta escassez de recursos na saúde pública?",
+        enunciado: " Você acredita que a poluição hídrica é mais prejudicial para as áreas urbanas ou rurais?",
         alternativas: [
             {
-                texto: "Acredito que Falta de investimento governamental",
-                afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
+                texto: "Áreas urbanas",
+                afirmacao: "A pessoa se preocupa com a falta de infraestrutura urbana e defende melhorias no tratamento de esgoto para reduzir a poluição hídrica."
             },
             {
-                texto: "desigualdades na distribuição de recursos",
-                afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
+                texto: "Áreas rurais",
+                afirmacao: "A pessoa se preocupa com o uso excessivo de pesticidas e fertilizantes na agricultura e com a falta de infraestrutura nas áreas rurais, defendendo soluções sustentáveis e melhorias no saneamento."
             }
         ]
     },
     {
-        enunciado: "Por que a violência obstétrica está cada vez mais banalizada? ",
+        enunciado: "Você acredita que a poluição hídrica pode ser mitigada com o tratamento de esgoto ou com a redução do uso de plásticos?",
         alternativas: [
             {
-                texto: "Negligência médica",
-                afirmacao: "<b>Foco</b> Apesar do uso de algumas técnicas serem restringidas apenas para casos específicos, ainda são utilizadas diariamente por profissionais da saúde."
+                texto: "Tratamento de esgoto",
+                afirmacao: "A pessoa vê o tratamento de esgoto como essencial para proteger a qualidade da água e a fauna aquática, destacando a importância de saneamento adequado."
             },
             {
-                texto: "Desinformação da população.",
-                afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
+                texto: "Redução do uso de plásticos",
+                afirmacao: "A pessoa defende a redução do uso de plásticos, especialmente os descartáveis, para diminuir a poluição nos rios, reconhecendo que os plásticos prejudicam a vida aquática e a qualidade da água. "
             }
         ]
     },
     {
-        enunciado: "Como evitar que ocorra a extinção de animais nativos?",
+        enunciado: "Você acredita que a poluição hídrica pode ser controlada com a redução do consumo de água ou com o uso de tecnologias de purificação?",
         alternativas: [
             {
-                texto: "Criação de mais áreas de proteção ambiental, com grande biodiversidade ajudaria a melhorar esse cenário?",
-                afirmacao: "Sim, pois preservando nosso meio ambiente, protegemos nossos animais e facilitamos sua reprodução "
+                texto: "Redução do consumo de água",
+                afirmacao: "A pessoa valoriza a redução do consumo de água como uma forma de minimizar o impacto ambiental, reconhecendo que isso reduz a produção de esgoto e resíduos nos rios, além de contribuir para a preservação dos recursos hídricos. "
             },
             {
-                texto: "Evitar intervenções de espécies não nativas neste ambiente pode ser uma alternativa?",
-                afirmacao: "Sim, animais de um determinado local não estão preparados para lidar com predadores de outras áreas, levando a um extermínio da espécie local"
+                texto: "Uso de tecnologias de purificação",
+                afirmacao: "A pessoa defende o uso de tecnologias de purificação para garantir água limpa e mitigar a poluição hídrica."
             }
         ]
     }
